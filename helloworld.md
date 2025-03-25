@@ -104,42 +104,87 @@ Run with:
 ./helloworld
 ```
 
-Java
-public class HelloWorld {    public static void main(String[] args) {        System.out.println("Hello, World!");    }}
+## Java
+```
+public class HelloWorld {    
+    public static void main(String[] args) {        System.out.println("Hello, World!");    
+    }
+}
+```
+Build with:
+```
 javac HelloWorld.java
+```
+Run with:
+```
 java HelloWorld
-x86_64 Assembly
+```
+## x86_64 Assembly
+Build with:
+```
 TODO
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md 6/9
-TODOBuild with:Run with:Run with:
+```
+Run with:
+```
 ./helloworld
-ARM64 Assembly
+```
+## ARM64 Assembly
+Build with:
+```
 TODO
+```
+Run with:
+```
 ./helloworld
-Bash
+```
+## Bash
+```
 echo "Hello, World!"
+```
+Run with:
+```
 bash helloworld.sh
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md 7/9
-Run with:Run with:Run with:
-Python
-print("Hello, World!")
-python helloworld.py
-Ruby
-puts "Hello, World!"
-ruby helloworld.rb
-PHP
-<?phpecho "Hello, World!"?>
-./helloworld
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md 8/9
-Run with:Run with:
-Perl
-print("Hello, World!\n")
-perl helloworld.pl
-Lua
-print("Hello, World!")
-lua helloworld.lua
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
+```
 
+## Python
+```
+print("Hello, World!")
+```
+Run with:
+```
+python helloworld.py
+```
+## Ruby
+```
+puts "Hello, World!"
+```
+Run with:
+```
+ruby helloworld.rb
+```
+## PHP
+```
+<?php
+echo "Hello, World!"
+?>
+```
+Run with:
+```
+./helloworld
+```
+## Perl
+```
+print("Hello, World!\n")
+```
+Run with:
+```
+perl helloworld.pl
+```
+## Lua
+```
+print("Hello, World!")
+```
+Run with:
+```
+lua helloworld.lua
+```
