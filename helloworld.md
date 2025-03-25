@@ -74,9 +74,21 @@ Run with:
 ./helloworld
 ```
 
-Go
-package mainimport "fmt"func main() {    fmt.Println("Hello, World!")}
+## Go
+```
+package main
+
+import "fmt"
+
+func main() {    
+    fmt.Println("Hello, World!")
+}
+```
+Build and run with:
+```
 go run helloworld.go
+```
+
 Rust
 fn main() {    println!("Hello, World");}
 rustc hello.rs
