@@ -39,12 +39,23 @@ Run with:
 ./helloworld
 ```
 ## C++
-#include <iostream>int main(){        std::cout << "Hello, World!" << std::endl;        return 0;}
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md 3/9
-Build with:Run with:Build with:Run with:
+```
+#include <iostream>
+
+int main()
+{        std::cout << "Hello, World!" << std::endl;
+         return 0;
+}
+```
+Build with:
+```
 g++ -Wall -o helloworld helloworld.cpp
+```
+Run with:
+```
 ./helloworld
+```
+
 Dlang
 import std.stdio;void main(){    writeln("Hello, World!");}
 gdc -Wall -o helloworld helloworld.cpp
