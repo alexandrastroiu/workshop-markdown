@@ -89,13 +89,21 @@ Build and run with:
 go run helloworld.go
 ```
 
-Rust
-fn main() {    println!("Hello, World");}
+## Rust
+```
+fn main() {
+        println!("Hello, World");
+    }
+```
+Build with:
+```
 rustc hello.rs
+```
+Run with:
+```
 ./helloworld
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md 5/9
-Build with:Run with:Build with:Run with:
+```
+
 Java
 public class HelloWorld {    public static void main(String[] args) {        System.out.println("Hello, World!");    }}
 javac HelloWorld.java
