@@ -56,13 +56,24 @@ Run with:
 ./helloworld
 ```
 
-Dlang
-import std.stdio;void main(){    writeln("Hello, World!");}
+## Dlang
+```
+import std.stdio;
+
+void main()
+{    
+    writeln("Hello, World!");
+}
+```
+Build with:
+```
 gdc -Wall -o helloworld helloworld.cpp
+```
+Run with:
+```
 ./helloworld
-10/26/24, 10:32 AM workshop-markdown/helloworld.md at solution · rosedu/workshop-markdown
-https://github.com/rosedu/workshop-markdown/blob/solution/helloworld.md 4/9
-Build and run with:Build with:Run with:
+```
+
 Go
 package mainimport "fmt"func main() {    fmt.Println("Hello, World!")}
 go run helloworld.go
